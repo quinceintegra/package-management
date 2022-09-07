@@ -23,6 +23,8 @@ sudo useradd sonar
 sudo echo "sonar ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sonar
 sudo hostname sonar
 #sudo passwd sonar
+#Assign password to sonar user
+sudo passwd sonar
 sudo su - sonar
 ```
 ## 2. Enable PasswordAuthentication in the server
